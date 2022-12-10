@@ -37,13 +37,14 @@ Basic R Syntax
 ||float|numeric|
 ||int|integer|
 |other concepts|
-||cast|as.datatype(var_name)|
+||cast|as.datatype(var_name)|eg: as.logical("i")|
 ||typeof|class|
 |||ls|lists variables|
-||array [a,b,c]|c(a,b,c)|c stands for combine - this is an array|
+|vectors|
+||array [a,b,c]|vector c(a,b,c)|c stands for combine - this is a 1D array, and implicit type conversion is done|
 ||0 based indexing|1 based indexing|indexes can also be a list like c(1,2)|
-||||
-||||
+|||c(1,2,3)>2|comparison works on arrays and can filter out values|
+|||c(1,2,3)[c(TRUE,FALSE,TRUE)]=(1,3)|true values are selected|
 ||||
 ||||
 ||||
