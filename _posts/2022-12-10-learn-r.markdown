@@ -50,8 +50,8 @@ Basic R Syntax
 |||matrix(elements, (row)byrow, nrow, ncol)|used for same datatypes (even character) and has row,column|
 |factor|
 |||factor(c("a","b","a","b"))=("a","b")|unique categorical values|
-|dataframe|||
-|||planet=c("mer","ven"),diameter=c(0.382,0,949),data.frame(planet,diameter)|very similar to other languages and has observations(rows),variables(cols)|
+|dataframe|
+|||planet=c("mer","ven") diameter=c(0.382,0,949) data.frame(planet,diameter)|very similar to other languages and has observations(rows),variables(cols)|
 ||||arrays variables surprisingly act as column names of the df|
 ||df.head()|head(df)|6 instead of 5 rows|
 ||df.tail()|tail(df)|6 instead of 5 rows|
@@ -60,9 +60,10 @@ Basic R Syntax
 ||df.columns|colnames(df)|
 ||df.loc or df.iloc|df[r:c]|select r'th row and c'th column of the dataframe|
 ||df[col]|df$col|
-||||
-||||
-||||
+|lists|
+||[]|list(var1,var2,var3)|stores values of different types or dimensions|
+|||x[[2]]|indexing is performed using []|
+|||df[,3] chooses the third column|
 ||||
 ||||
 ||||
