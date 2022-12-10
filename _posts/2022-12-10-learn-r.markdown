@@ -5,5 +5,46 @@ date:   2022-12-09 18:26:00
 categories: learn R
 ---
 
+### Introduction
+
 Learning about R.
 
+#### Syntax
+
+Basic R Syntax
+
+|topic|other languages|R|comments|
+|:---:|:---:|:---:|:---:|
+|syntax symbols|
+||+|+|
+||-|-|
+||*|*|
+||/|/|
+||^ or **|^|
+||%|%%|
+||= or :=|<-|a little strange|
+||true or True|TRUE|
+||false or False|FALSE|
+||<|<|
+||>|>|
+||<=|<=|
+||>=|>=|
+||==|==|
+||!=|!=|
+|types|
+||str|character|
+||bool|logical|
+||float|numeric|
+||int|integer|
+|other concepts|
+||cast|as.datatype(var_name)|
+||typeof|class|
+|||ls|lists variables|
+||array [a,b,c]|c(a,b,c)|c stands for combine - this is an array|
+||0 based indexing|1 based indexing|indexes can also be a list like c(1,2)|
+||||
+||||
+||||
+||||
+||||
+||||
