@@ -64,6 +64,18 @@ Basic R Syntax
 ||[]|list(var1,var2,var3)|stores values of different types or dimensions|
 |||x[[2]]|indexing is performed using []|
 |||df[,3] chooses the third column|
+|R functions|
+|||help(mean) or ?mean|gives documentation for the function|
+|||args(mean)|gives args for the function|
+||...|...|optional arguments|
+||f(k=a) or f(a)|f(k=a) or f(a)|position or name matching|
+||f(x,k=a)|f(x,k=a)|whatever is initialised isn't a required argument|
+|||argument names can have . in them like na.rm|
+||def g, func g, function g|g <- function|like a lambda|
+||return|return|
+||{} or tabs|{}|code indentation|
+|data|
+||||
 ||||
 ||||
 ||||
