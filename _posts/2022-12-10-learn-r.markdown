@@ -85,8 +85,8 @@ Basic R Syntax
 ||cd|setwd()|
 ||ls|list.files()|
 |imports|
-||||
-||||
+||pip install|install.packages("ggplot2")|
+||import plotly|library("ggplot2") or require("ggplot2")|
 ||||
 ||||
 ||||
