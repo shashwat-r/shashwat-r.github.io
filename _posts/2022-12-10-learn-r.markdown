@@ -16,6 +16,7 @@ Basic R Syntax
 |topic|other languages|R|comments|
 |:---:|:---:|:---:|:---:|
 |syntax symbols|
+|||; not needed|
 ||+|+|
 ||-|-|
 ||*|*|
@@ -75,6 +76,30 @@ Basic R Syntax
 ||return|return|
 ||{} or tabs|{}|code indentation|
 |data|
+|||read.table(loc)|txt file|
+|||read.csv(loc)|also has a sep (i.e. separator) argument|
+|||read.spss(.sav SPSS format loc)|
+|||readWorksheetFromFile(loc)|excel sheet|
+|file location|
+||pwd|getwd()|
+||cd|setwd()|
+||ls|list.files()|
+|imports|
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
 ||||
 ||||
 ||||
