@@ -46,7 +46,23 @@ Basic R Syntax
 |||c(1,2,3)>2|comparison works on arrays and can filter out values|
 |||c(1,2,3)[c(TRUE,FALSE,TRUE)]=(1,3)|true values are selected|
 |||1:9 = c(1,2,3,4,5,6,7,8,9)|
-|matrices|||used for same datatypes (even character) and has row,column|
-|||matrix(elements, (row)byrow, nrow, ncol)|
+|matrices|
+|||matrix(elements, (row)byrow, nrow, ncol)|used for same datatypes (even character) and has row,column|
+|factor|
+|||factor(c("a","b","a","b"))=("a","b")|unique categorical values|
+|dataframe|||
+|||planet=c("mer","ven"),diameter=c(0.382,0,949),data.frame(planet,diameter)|very similar to other languages and has observations(rows),variables(cols)|
+||||arrays variables surprisingly act as column names of the df|
+||df.head()|head(df)|6 instead of 5 rows|
+||df.tail()|tail(df)|6 instead of 5 rows|
+||df.show() with types|str(df)|it isn't string, it is structure|
+||df.shape|dim(df)|
+||df.columns|colnames(df)|
+||df.loc or df.iloc|df[r:c]|select r'th row and c'th column of the dataframe|
+||df[col]|df$col|
+||||
+||||
+||||
+||||
 ||||
 ||||
