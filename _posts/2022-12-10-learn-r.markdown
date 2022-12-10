@@ -38,7 +38,7 @@ Basic R Syntax
 ||float|numeric|
 ||int|integer|
 |other concepts|
-||cast|as.datatype(var_name)|eg: as.logical("i")|
+||cast|as.datatype(var_name)|eg: as.logical("i"), and can be used to cast df variables(columns)|
 ||typeof|class|
 |||ls()|lists variables|
 |vectors|
@@ -60,7 +60,7 @@ Basic R Syntax
 ||df.shape|dim(df)|
 ||df.columns|colnames(df)|
 ||df.loc or df.iloc|df[r:c]|select r'th row and c'th column of the dataframe|
-||df[col]|df$col|
+||df[col]|df$col|can be used to create new or edit existing cols|
 |lists|
 ||[]|list(var1,var2,var3)|stores values of different types or dimensions|
 |||x[[2]]|indexing is performed using []|
