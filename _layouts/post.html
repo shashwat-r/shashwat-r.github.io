@@ -1,18 +1,19 @@
 ---
 layout: default
 ---
-<article class="container px-2 mx-auto mb4" itemscope itemtype="http://schema.org/BlogPosting">
-  <h1 class="h0 col-9 sm-width-full py-4 mt-3 inline-block" itemprop="name headline">{{ page.title }}</h1>
-  <div class="col-4 sm-width-full mt-1 border-top-thin ">
-    <p class="mb-3 py-2 bold h4"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
-  </div>
+<article class="post">
 
-  <div class="prose" itemprop="articleBody">
-      {{ content }}
-  </div>
+	{% if page.external-url %}
+		<h1>
+			<a href="{{ page.external-url }}">{{ page.title }}</a> 
+			<a class="anchor" href="{{ page.url }}"><i class="icon-anchor"></i></a>
+		</h1>
+	{% else %}
+		<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+	{% endif %}
+
+	<div class="post-content">{{ content }}</div>
+
+	<p class="meta">Posted on <span class="postdate">{{ page.date | date: "%b %d, %Y" }}</span></p>
 
 </article>
-
-<div class="container mx-auto px-2 py-2 clearfix">
-  {% include previous-next.html %}
-</div>
