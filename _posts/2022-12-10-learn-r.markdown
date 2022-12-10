@@ -50,10 +50,10 @@ Basic R Syntax
 |matrices|
 |||matrix(elements, (row)byrow, nrow, ncol)|used for same datatypes (even character) and has row,column|
 |factor|
-|||factor(c("a","b","a","b"))=("a","b")|unique categorical values|
+|||factor(c("a","b","a","b"))=("a","b")|unique categorical values, an inferred datatype in dataframes|
 |dataframe|
-|||planet=c("mer","ven") diameter=c(0.382,0,949) data.frame(planet,diameter)|very similar to other languages and has observations(rows),variables(cols)|
-||||arrays variables surprisingly act as column names of the df|
+|||planet=c("mer","ven") diameter=c(0.382,0,949) data.frame(planet,diameter)|very similar to other languages and has observations(rows), variables(cols)|
+||||arrays variables surprisingly acts as column names of the df|
 ||df.head()|head(df)|6 instead of 5 rows|
 ||df.tail()|tail(df)|6 instead of 5 rows|
 ||df.show() with types|str(df)|it isn't string, it is structure|
