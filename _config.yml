@@ -1,6 +1,6 @@
-name: Personal Page
+name: Shashwat Raghuvanshi
 url: https://shashwatraghuvanshi.com
-description: "Hi, I'm Shashwat Raghuvanshi"
+description: "Welcome to my Personal Page."
 
 permalink: /:year/:month/:day/:title/
 paginate: 10
