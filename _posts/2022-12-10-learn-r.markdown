@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Learn R"
-date:   2022-12-10
-categories: learn R
+title:  "Learn R Title"
+# date:   2022-12-11
+categories: learn R Categories
 # hidden: true
 ---
 
